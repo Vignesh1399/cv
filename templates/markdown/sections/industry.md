@@ -13,8 +13,9 @@
 {% endif %}
 {{ i.location }}
 {% if i.details %}
+<p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
 {% for detail in i.details %}
-{{ detail }}
+<br> {{ detail }}
 {% endfor %}
 {% endif %}
 </p>
