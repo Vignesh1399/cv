@@ -16,6 +16,7 @@
 <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
 {% for detail in i.details %}
 <br> {{ detail }}
+</p>
 {% endfor %}
 {% endif %}
 </p>

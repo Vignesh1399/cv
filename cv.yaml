@@ -3,13 +3,13 @@ name:
   last: Ramachandran
 email: vigneshrc1999@gmail.com
 pdf: /data/cv.pdf
-src: https://github.com/bamos/cv
+src: https://github.com/Vignesh1399/cv
 url: "vignesh1399.github.io"
 social:
   github: Vignesh
   # twitter: brandondamos
   linkedin: Vignesh
-  google_scholar: d8gdZR4AAAAJ
+  # google_scholar: d8gdZR4AAAAJ
 
 # LaTeX formatting
 style: banking # casual, classic, oldstyle, or banking
@@ -67,7 +67,7 @@ industry:
   - place: Avalara, Indix R&D
     location: Chennai, India
     title: Software Development Engineer
-    inline_detail: "Text classification, Named Entity Recognition, Language Modelling, MLops"
+    # inline_detail: "Text classification, Named Entity Recognition, Language Modelling, MLops"
     details:
       - Designed and implemented a product data augmentation pipeline using Faiss and Transformers across 2B+ products
         powered by Neural Search and Contrastive Learning. Improved classification accuracy by 10%.
@@ -79,20 +79,20 @@ industry:
       - Designed a dashboard using Grafana to visualize and monitor model performance metrics over time.
       - Increased efficiency by (300%) reducing time for classification of customer catalog from 8-weeks to 2-weeks for one of
         the first customers of the automated classification service.
-      - "{\textbf  Skills:} {\textit Python, Huggingface, PyTorch, FastAPI, REST API, Git, GoCD, Shell, Mlflow, AWS Sagemaker, Docker,
+      - "{\\bf  Skills:} {\\it Python, Huggingface, PyTorch, FastAPI, REST API, Git, GoCD, Shell, Mlflow, AWS Sagemaker, Docker,
         Kubernetes, SQL}"
     dates: Jul 2021 -- present
   - place: Avalara, Indix R&D
     location: Chennai, India
     title: Engineering Intern
     dates: Feb 2021 -- Jul 2021
-    inline_detail: "Named Entity Recognition API, Test Driven Development, Machine Learning and Scala Bootcamp"
+    # inline_detail: "Named Entity Recognition API, Test Driven Development, Machine Learning and Scala Bootcamp"
     details:
       - Built an attribute extraction endpoint to identify relevant attributes from product titles for HSCode classification.
       - Built an end-end workflow for attribute extraction which includes data preparation, NER model development, training, evaluation, deployment and API development for model inference.
       - Added unit tests, smoke tests for the attribute extraction API (by following TDD).
       - Underwent a practical bootcamp on Functional Programming, Scala, MapReduce, Spark, Docker, Kubernetes and CI/CD principles.
-      - "{\textbf  Skills:} {\textit Python, Huggingface, PyTorch, FastAPI, REST API, Git, GoCD, Shell, Mlflow, AWS Sagemaker, Docker,
+      - "{\\bf  Skills:} {\\it Python, Huggingface, PyTorch, FastAPI, REST API, Git, GoCD, Shell, Mlflow, AWS Sagemaker, Docker,
         Kubernetes}"
   - place: GUVI Geek Network Pvt Ltd , IITM Research Park
     location: Chennai, India
